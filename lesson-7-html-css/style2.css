@@ -1,0 +1,23 @@
+.arrow {
+    text-decoration: none;
+}
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+[target=_blank] {
+    color: #f70
+}
+
+a[href*="google"] {
+    color: #666;
+}
+
+
+

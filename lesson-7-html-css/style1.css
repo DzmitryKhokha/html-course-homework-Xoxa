@@ -1,0 +1,88 @@
+div {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: right;
+    color: orange;
+}
+
+em {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+p:first-letter {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2:nth-of-type(1) {
+    color: orange;
+}
+
+h2:nth-of-type(2) {
+    color: blue;
+}
+
+span {
+    font-weight: bold;
+}
+
+td[rowspan="2"] {
+    font-weight: bold;
+    background-color: white;
+}
+
+td[colspan="3"] {
+    font-weight: bold;
+    background-color: white;
+}
+
+ol:nth-child(1) {
+    color: red;
+}
+
+h2#Ogorod {
+    color: orange;
+}
+
+ol#OgorodFr {
+    color: gray;
+}
+
+ol#SkladFr {
+    color: green;
+}
+
+ol {
+    color: red;
+}
+
+td#Sasha, #Serezha, #Tanya {
+    color: orange;
+    background-color: white;
+    border-color: black;
+    text-align: left;
+}
+
+tr#white {
+    background-color: white;
+}
+
+tr {
+    background-color: green;
+}
+
+table {
+    border-style: solid;
+}
+
+td {
+    border-style: solid;
+    text-align: center;
+}
