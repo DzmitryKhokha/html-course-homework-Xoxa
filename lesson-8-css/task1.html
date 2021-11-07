@@ -12,9 +12,50 @@
   <form>
     <fieldset>
       <legend>Personal information</legend>
-      <input type="text" >
       <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Mickey"><br><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Mouse"><br><br>
+      <textarea name="message" cols="30" rows="10">The cat was playing in the garden.</textarea>
     </fieldset>
+  </form><br>
+  <form>
+    <fieldset>
+      <legend>Car info(the brand)</legend>
+      <select name="car">
+        <option value="1">Volvo</option>
+        <option value="2">Volkswagen</option>
+        <option value="3">Audi</option>
+        <option value="4">BMW</option>
+        <option value="5">Honda</option>
+        <option value="6">Nissan</option>
+        <option value="7">Ford</option>
+      </select>
+    </fieldset>
+  </form><br>
+  <form>
+    <fieldset>
+      <legend>Choose one:</legend>
+      <input type="radio" id="Male" name="Male">
+      <label for="Male">Male</label><br>
+      <input type="radio" id="Female" name="Female">
+      <label for="Female">Female</label><br>
+      <input type="radio" id="Other" name="Other">
+      <label for="Other">Other</label>
+    </fieldset>
+  </form><br>
+  <form>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <input type="checkbox" id="bike" name="bike" value="bike">
+      <label for="bike">I have a bike</label><br>
+      <input type="checkbox" id="car" name="car" value="car">
+      <label for="car">I have a car</label>
+    </fieldset>
+  </form><br>
+  <form action="">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
   </form>
 </body>
 </html>
