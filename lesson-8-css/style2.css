@@ -1,0 +1,38 @@
+body {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    background-color: #A64DFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+nav li {
+    display: inline;
+}
+
+.menu li a {
+    padding: 11px 16px;
+    text-decoration: none;
+    color: white;
+    line-height: 38px;
+}
+
+.menu li a:hover {
+    background-color: #EDEDED;
+    color: #AEAEAE;
+}
+
+.menu {
+    padding: 2px;
+}
+
+#more {
+    float: right;
+    margin-right: 60px;
+}
