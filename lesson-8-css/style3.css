@@ -1,0 +1,19 @@
+tr:nth-child(even) {
+    background-color: #DDEBF8;
+}
+
+td:nth-child(2n+3) {
+    background-color: #F2F2DD;
+}
+
+td {
+    border-bottom: 2px solid gray;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr, td {
+    padding: 4px 8px;
+}
