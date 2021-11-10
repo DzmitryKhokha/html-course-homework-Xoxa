@@ -1,0 +1,73 @@
+.pagination li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+a {
+    color: #9F3CCF;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.number:hover {
+    background-color: #9F3CCF;
+    color: white;
+    border-color: #3b0156;
+}
+
+#FirstPage:before {
+    content: "\00AB";
+    font-size: 13px;
+    padding-right: 4px;
+    position: relative;
+    bottom: 1px;
+}
+
+#PreviousPage:before {
+    content: "\00AB";
+    font-size: 13px;
+    padding-right: 4px;
+    position: relative;
+    bottom: 1px;
+}
+
+.number {
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+#points:before {
+    content: "\2026";
+    font-size: 15px;
+}
+
+#NextPage:after {
+    content: "\00BB";
+    font-size: 13px;
+    padding-left: 4px;
+    position: relative;
+    bottom: 1px;
+}
+
+#LastPage:after {
+    content: "\00BB";
+    font-size: 13px;
+    padding-left: 4px;
+    position: relative;
+    bottom: 1px;
+}
+
+#points {
+    position: relative;
+    top: 10px;
+}
