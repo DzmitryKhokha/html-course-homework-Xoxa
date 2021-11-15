@@ -1,10 +1,10 @@
-body {
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-
 nav {
     background-color: #A64DFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.3px;
 }
 
 nav ul {
@@ -26,13 +26,14 @@ nav li {
 .menu li a:hover {
     background-color: #EDEDED;
     color: #AEAEAE;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .menu {
-    padding: 2px;
+    padding: 1px;
 }
 
-#more {
+.more {
     float: right;
     margin-right: 60px;
 }
