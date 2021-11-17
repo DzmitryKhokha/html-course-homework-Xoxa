@@ -24,7 +24,7 @@ a {
     border-color: #3b0156;
 }
 
-#FirstPage:before {
+.FirstPage:before {
     content: "\00AB";
     font-size: 13px;
     padding-right: 4px;
@@ -32,7 +32,7 @@ a {
     bottom: 1px;
 }
 
-#PreviousPage:before {
+.PreviousPage:before {
     content: "\00AB";
     font-size: 13px;
     padding-right: 4px;
@@ -46,12 +46,12 @@ a {
     padding: 10px 15px;
 }
 
-#points:before {
+.points:before {
     content: "\2026";
     font-size: 15px;
 }
 
-#NextPage:after {
+.NextPage:after {
     content: "\00BB";
     font-size: 13px;
     padding-left: 4px;
@@ -59,7 +59,7 @@ a {
     bottom: 1px;
 }
 
-#LastPage:after {
+.LastPage:after {
     content: "\00BB";
     font-size: 13px;
     padding-left: 4px;
@@ -67,7 +67,7 @@ a {
     bottom: 1px;
 }
 
-#points {
+.points {
     position: relative;
     top: 10px;
 }
