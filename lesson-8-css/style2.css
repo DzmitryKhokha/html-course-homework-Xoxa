@@ -1,0 +1,39 @@
+nav {
+    background-color: #A64DFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+nav li {
+    display: inline;
+}
+
+.menu li a {
+    padding: 11px 16px;
+    text-decoration: none;
+    color: white;
+    line-height: 38px;
+}
+
+.menu li a:hover {
+    background-color: #EDEDED;
+    color: #AEAEAE;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.menu {
+    padding: 1px;
+}
+
+.more {
+    float: right;
+    margin-right: 60px;
+}

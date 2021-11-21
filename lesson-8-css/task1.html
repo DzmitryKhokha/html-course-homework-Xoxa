@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>task1</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <h2>Sign up for the app</h2><br>
+  <form>
+    <fieldset>
+      <legend>Personal information</legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Mickey"><br><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Mouse"><br><br>
+      <textarea name="message" cols="30" rows="10">The cat was playing in the garden.</textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Car info(the brand)</legend>
+      <select name="car">
+        <option value="1">Volvo</option>
+        <option value="2">Volkswagen</option>
+        <option value="3">Audi</option>
+        <option value="4">BMW</option>
+        <option value="5">Honda</option>
+        <option value="6">Nissan</option>
+        <option value="7">Ford</option>
+      </select>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Choose one:</legend>
+      <input type="radio" id="Male" name="Male">
+      <label for="Male">Male</label><br>
+      <input type="radio" id="Female" name="Female">
+      <label for="Female">Female</label><br>
+      <input type="radio" id="Other" name="Other">
+      <label for="Other">Other</label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <input type="checkbox" id="bike" name="bike" value="bike">
+      <label for="bike">I have a bike</label><br>
+      <input type="checkbox" id="car" name="car" value="car">
+      <label for="car">I have a car</label>
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form>
+</body>
+</html>
