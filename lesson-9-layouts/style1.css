@@ -1,0 +1,103 @@
+input {
+    height: 20px;
+    width: 60px;
+}
+
+.red {
+    background-color: red;
+    border-radius: 6px;
+    padding: 1px 4px 3px;
+    color: white;
+    display: none;
+    font-family: Arial;
+    font-size: smaller;
+}
+
+.green {
+    background-color: green;
+    border-radius: 6px;
+    padding: 1px 4px 3px;
+    color: white;
+    display: none;
+    font-family: Arial;
+    font-size: smaller;
+}
+
+.blue {
+    background-color: #0000ff;
+    border-radius: 6px;
+    padding: 1px 4px 3px;
+    color: white;
+    display: none;
+    font-family: Arial;
+    font-size: smaller;
+}
+
+/*Спрятали чекбоксы */
+#red, #green, #blue {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+}
+
+[for=red] {
+    color: red;
+    text-decoration: underline;
+    opacity: 20%;
+    font-family: Arial;
+    font-size: smaller;
+    margin-left: 40px;
+}
+
+[for=green] {
+    color: green;
+    text-decoration: underline;
+    opacity: 20%;
+    font-family: Arial;
+    font-size: smaller;
+}
+
+[for=blue] {
+    color: blue;
+    text-decoration: underline;
+    opacity: 20%;
+    font-family: Arial;
+    font-size: smaller;
+}
+
+#red:checked ~ .red {
+    display: inline-block;
+}
+
+#green:checked ~ .green {
+    display: inline-block;
+}
+
+#blue:checked ~ .blue {
+    display: inline-block;
+}
+
+#red:checked ~ label[for="red"] {
+    opacity: 100%;
+}
+
+#green:checked ~ label[for="green"] {
+    opacity: 100%;
+}
+
+#blue:checked ~ label[for="blue"] {
+    opacity: 100%;
+}
+
+label {
+    padding-right: 40px;
+}
+
+span {
+    margin-right: 5px;
+}
+
+font-face {
+    font-family: "Arial Rounded MT Bold";
+}
