@@ -1,0 +1,96 @@
+.container {
+    height: 280px;
+    background-color: black;
+    margin-top: 15%;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #3170A8;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+span {
+    color: #EE8129;
+}
+
+img {
+    height: 7%;
+    width: 7%;
+    margin-left: 100px;
+}
+
+.user-info, .user-position {
+    color: #3170A8;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.user-info {
+    float: left;
+}
+
+.user-position {
+    float: right;
+}
+
+.text-review {
+    color: gray;
+    font-size: 15px;
+}
+
+.user-1 {
+    position: relative;
+}
+
+.user-1-review {
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    padding: 10px;
+    width: 400px;
+    margin-left: -30px;
+}
+
+.user-1-review::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 30px;
+    border: 20px solid transparent;
+    border-right: 20px solid white;
+}
+
+.user-2 {
+    position: relative;
+    left: 600px;
+    bottom: 100px;
+}
+
+.user-2-review {
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    padding: 10px;
+    width: 400px;
+    margin-left: -30px;
+}
+
+.user-2-review::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 30px;
+    border: 20px solid transparent;
+    border-right: 20px solid white;
+}
