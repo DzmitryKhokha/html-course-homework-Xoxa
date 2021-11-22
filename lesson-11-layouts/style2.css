@@ -1,96 +1,83 @@
-.container {
-    height: 280px;
+.wrap {
+    width: 100%;
+    margin: 100px auto;
     background-color: black;
-    margin-top: 15%;
-    font-family: "Open Sans", Arial, sans-serif;
 }
 
-h2 {
-    text-transform: uppercase;
+.header, .footer {
+    background-color: black;
+    padding: 20px;
     color: #3170A8;
-    font-family: "Open Sans", Arial, sans-serif;
     text-align: center;
-    padding-top: 35px;
-    font-weight: 300;
     font-size: 35px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
 }
 
-span {
+.first-word {
     color: #EE8129;
+    font-style: normal;
+    font-weight: normal;
 }
 
-img {
-    height: 7%;
-    width: 7%;
-    margin-left: 100px;
-}
-
-.user-info, .user-position {
-    color: #3170A8;
-    font-style: italic;
+.content {
+    background-color: black;
+    padding: 20px;
+    position: relative;
     font-size: 15px;
-    font-weight: bold;
+    font-family: "Open Sans", Arial, sans-serif;
 }
 
-.user-info {
+.content::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.col1, .col3 {
+    padding: 0 30px;
     float: left;
+    margin-left: 40px;
 }
 
-.user-position {
+.col2, .col4 {
+    background-color: white;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #2F70A8;
+}
+
+.position {
     float: right;
 }
 
-.text-review {
-    color: gray;
-    font-size: 15px;
+.review {
+    color: #888c94;
+    font-style: normal;
+    font-weight: normal;
 }
 
-.user-1 {
-    position: relative;
+span {
+    font-style: italic;
+    font-weight: bold;
 }
 
-.user-1-review {
-    background-color: white;
-    width: 30%;
-    position: absolute;
-    top: 0px;
-    left: 260px;
-    padding: 10px;
-    width: 400px;
-    margin-left: -30px;
-}
-
-.user-1-review::before {
+.col2::before {
     content: '';
     position: absolute;
-    left: -40px;
-    top: 30px;
+    left: 190px;
+    top: 60px;
     border: 20px solid transparent;
     border-right: 20px solid white;
 }
 
-.user-2 {
-    position: relative;
-    left: 600px;
-    bottom: 100px;
-}
-
-.user-2-review {
-    background-color: white;
-    width: 30%;
-    position: absolute;
-    top: 0px;
-    left: 260px;
-    padding: 10px;
-    width: 400px;
-    margin-left: -30px;
-}
-
-.user-2-review::before {
+.col4::before {
     content: '';
     position: absolute;
-    left: -40px;
-    top: 30px;
+    left: 795px;
+    top: 60px;
     border: 20px solid transparent;
     border-right: 20px solid white;
 }
