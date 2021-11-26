@@ -1,0 +1,52 @@
+.first img, .second img {
+    width: 800px;
+    box-shadow: 3px 3px 3px #8E9AA9;
+}
+
+.first img {
+    margin-top: 80px;
+}
+
+.second img {
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.customer-1-info {
+    margin-top: 80px;
+    margin-right: 60px;
+    float: right;
+    text-align: right;
+}
+
+.customer-2-info {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+h2 {
+    color: #D14039;
+    letter-spacing: 1px;
+    margin-top: 210px;
+}
+
+h5 {
+    color: #abb5c2;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+
+h4 {
+    color: #717b88;
+    margin-bottom: 150px;
+}
+
+h2, h5 {
+    margin-bottom: -20px;
+}
+
+footer {
+    clear: both;
+}
