@@ -1,0 +1,81 @@
+body {
+    background: url('../images/plans-background.jpg') no-repeat
+    left 80% top 10%/cover;
+}
+
+.plan {
+    border: 4px solid #937270;
+    margin-top: 15px;
+    margin-left: -5px;
+    margin-bottom: 15px;
+    width: 900px;
+    padding-left: 15px;
+    background: rgba(177, 177, 175, 0.95);
+    box-shadow: 2px 2px 2px #424242;
+}
+
+.plan__info {
+    background-color: white;
+    width: 800px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.free {
+    float: right;
+    text-align: right;
+    margin-right: -5px;
+}
+
+.free .plan__info {
+    float: right;
+    margin-right: 20px;
+}
+
+.free h1, .free h3 {
+    padding-right: 20px;
+}
+
+.premium {
+    float: left;
+    background: rgba(162,139,136, 0.95);
+}
+
+.premium h1 {
+    color: white;
+}
+
+.plan div {
+    color: #858585;
+    font-weight: 600;
+    background-color: rgba(255,255,255, 1);
+}
+
+.premium h3 {
+    color: #B1B1AF;
+}
+
+.plus .recommend {
+    text-transform: uppercase;
+    color: white;
+    font-size: 9px;
+    font-weight: 600;
+    background-color: #D7412C;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    float: right;
+    bottom: 80px;
+    right: 10px;
+}
