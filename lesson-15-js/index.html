@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lesson-15-js</title>
+</head>
+<body>
+<script>
+    "use strict";
+
+    var surname = prompt('Ваша фамилия ?');
+    var name = prompt('Ваше имя ?');
+    var patronymic = prompt('Ваше отчество ?');
+
+    var fullName = surname + ' ' + name + ' ' + patronymic;
+
+    var age = +prompt('Ваш возраст ?');
+
+    var ageInDays = age * 365;
+
+    var n = 5;
+    var ageN = age + n;
+
+    var gender = confirm('Ваш пол - мужской?');
+
+    if (gender === true) {
+        gender = 'мужской'
+    } else {
+        gender = 'женский'
+    }
+
+    /*
+
+    var pension;
+    if (age > 60) {
+        pension = 'да'
+    } else {
+        pension = 'нет'
+    }
+
+    */
+
+
+    var pension = (age < 60) ? 'нет' : 'да';
+
+    alert('Ваше ФИО: ' + fullName + '\n' + 'Ваш возраст в годах: ' + age + '\n' + 'Ваш возраст в днях: ' + ageInDays +
+        '\n' + 'через 5 лет вам будет: ' + ageN + '\n' + 'ваш пол: ' + gender + '\n' + 'вы на пенсии: ' + pension);
+
+</script>
+</body>
+</html>
