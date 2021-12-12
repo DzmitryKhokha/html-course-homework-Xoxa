@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>task2</title>
+</head>
+<body>
+  <script>
+
+      /*
+      Исправьте 1-ю задачу так, чтобы она выводила «Fuddy-Duddy» для всех
+      чисел, которые делятся и на 3, и на 5.
+      */
+
+    'use strict';
+   var a = 1;
+   var b = 100;
+
+   for (var i = a; i <= b; i++) {
+       if (i % 3 === 0 || i % 5 === 0) {
+          console.log(i + 'Fuddy-Duddy');
+          continue;
+       }
+       console.log(i);
+   }
+  </script>
+</body>
+</html>

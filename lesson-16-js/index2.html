@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task3</title>
+</head>
+<body>
+  <script>
+
+      /*
+      Напишите функцию pow(x,n), которая возвращает x в степени n. Иначе говоря, умножает
+      x на себя n раз и возвращает результат.
+      Примеры:
+      pow(3, 2) = 3 * 3 = 9
+       pow(1, 100) = 1 * 1 * ...* 1 = 1
+       */
+
+    'use strict'
+      function pow(x , n) {
+        return x ** n;
+        /*
+        либо
+        return Math.pow(x, n);
+        */
+      }
+      var result = pow(1, 100);
+      console.log(result);
+  </script>
+</body>
+</html>
