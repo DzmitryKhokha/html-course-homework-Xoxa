@@ -4,7 +4,7 @@
     background-color: black;
 }
 
-.header, .footer {
+header, footer {
     background-color: black;
     padding: 20px;
     color: #3170A8;
@@ -64,20 +64,18 @@ span {
     font-weight: bold;
 }
 
-.col2::before {
+.col2::before, .col4::before {
     content: '';
     position: absolute;
-    left: 190px;
     top: 60px;
     border: 20px solid transparent;
     border-right: 20px solid white;
 }
 
+.col2::before {
+    left: 190px;
+}
+
 .col4::before {
-    content: '';
-    position: absolute;
-    left: 795px;
-    top: 60px;
-    border: 20px solid transparent;
-    border-right: 20px solid white;
+    left: 898px;
 }
