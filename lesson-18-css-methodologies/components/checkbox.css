@@ -1,0 +1,80 @@
+@import "../project/style.css";
+
+:root {
+    --label-bg-color: white;
+    --label-unchecked-color: var(--sea-color);
+    --label-checked-color: var(--blue);
+    --label-focus-color: var(--heavenly-blue);
+    --label-checked-bg-color: var(--light-gray);
+    --checkbox-border-color: var(--sea-color);
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    align-items: center;
+    margin: 0.2em;
+}
+
+.label {
+
+    /* Display and box model */
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 0.8em;
+    margin: 0.2em;
+    max-width: 100%;
+    height: 2.5em;
+    border: none;
+    border-radius: 0.25em;
+
+
+    /* Color */
+    background: var(--label-bg-color);
+
+    /* Text */
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    white-space: nowrap;
+
+    /* Other */
+    transform: scale(0.9);
+    will-change: transform;
+    transition: transform 0.2s .15s ease;
+    cursor: pointer;
+}
+
+.checkbox[id="check-element-1"]:not(checked) ~ label[for="check-element-1"],
+.checkbox[id="check-element-2"]:not(checked) ~ label[for="check-element-2"] {
+    box-shadow:
+            0 0.25em 0.4em rgba(50, 50, 93, .05),
+            0 0.1em 0.25em rgba(0, 0, 0, .08);
+
+    color: var(--label-unchecked-color);
+    opacity: 0.8;
+}
+
+.checkbox[id="check-element-1"]:checked ~ label[for="check-element-1"],
+.checkbox[id="check-element-2"]:checked ~ label[for="check-element-2"] {
+    box-shadow:
+            0 0.25em 0.4em rgba(50, 50, 93, .2),
+            0 0.1em 0.25em rgba(0, 0, 0, .15);
+
+    background: var(--label-checked-bg-color);
+    color: var(--label-checked-color);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.checkbox[id="check-element-1"]:focus,
+.checkbox[id="check-element-2"]:focus {
+    outline: 0.1em solid var(--label-focus-color);
+    -moz-outline-radius: 0.2em;
+}
