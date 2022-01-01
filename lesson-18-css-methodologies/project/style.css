@@ -1,0 +1,10 @@
+@import "../components/checkbox.css";
+
+:root {
+    --blue: #012e67;
+    --pastel-azure: #7fb9c2;
+    --teal-color: #e7f0ed;
+    --heavenly-blue: #9cacbf;
+    --sea-color: #628ca6;
+    --light-gray: #f3f6f6;
+}
